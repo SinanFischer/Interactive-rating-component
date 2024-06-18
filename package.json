@@ -1,0 +1,13 @@
+{
+  "name": "starter-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./src/output.css --watch",
+    "watch": "npx tailwindcss -i ./input.css -o ./src/output.css --watch" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

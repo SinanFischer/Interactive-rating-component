@@ -1,0 +1,59 @@
+<!-- Card -->
+<div class="w-[412px] h-[416px] rounded-2xl bg-gradient-to-b from-blackG to-veryDarkBlue p-8" id="modal">
+    <div class="rounded-full bg-darkBlue p-4 w-12 h-12">
+        <img src="./images/icon-star.svg" alt="" />
+    </div>
+
+    <!-- Rating state start -->
+    <form id="rating-form">
+        <h1 class="text-white text-3xl pt-8 pb-4">How did we do?</h1>
+
+        <p class="text-lightGray text-md">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+        </p>
+
+        <!-- Button Group -->
+        <div class="flex justify-between py-6">
+            <label
+                class="flex items-center justify-center text-white font-bold p-4 rounded-full bg-darkBlue w-12 h-12 cursor-pointer hover:bg-orange  ">
+                <input type="radio" name="rating" value="1" class="hidden peer" />
+                <span>1</span>
+            </label>
+            <label
+                class="flex items-center justify-center text-white font-bold p-4 rounded-full bg-darkBlue w-12 h-12 cursor-pointer hover:bg-orange  ">
+                <input type="radio" name="rating" value="2" class="hidden peer" />
+                <span>2</span>
+            </label>
+            <label
+                class="flex items-center justify-center text-white font-bold p-4 rounded-full bg-darkBlue w-12 h-12 cursor-pointer hover:bg-orange  ">
+                <input type="radio" name="rating" value="2" class="hidden peer" />
+                <span>3</span>
+            </label>
+            <label
+                class="flex items-center justify-center text-white font-bold p-4 rounded-full bg-darkBlue w-12 h-12 cursor-pointer hover:bg-orange  ">
+                <input type="radio" name="rating" value="2" class="hidden peer" />
+                <span>4</span>
+            </label>
+            <label
+                class="flex items-center justify-center text-white font-bold p-4 rounded-full bg-darkBlue w-12 h-12 cursor-pointer hover:bg-orange  ">
+                <input type="radio" name="rating" value="2" class="hidden peer" />
+                <span>5</span>
+            </label>
+
+        </div>
+
+        <div class="w-full">
+            <button type="submit" onclick="submitForm()"
+                class="w-full bg-orange text-veryDarkBlue rounded-full font-bold py-3 uppercase tracking-wider hover:bg-white">
+                Submit
+            </button>
+            <div id="error-message">
+
+            </div>
+        </div>
+
+
+
+    </form>
+</div>
